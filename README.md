@@ -3,6 +3,17 @@
 학습 데이터와 테스트 데이터가 주어지며 해당 데이터셋에 대한 문장을 추론하는 task에 대한 대회였습니다.(Kornli)  
 해당 대회에서 저희 팀 ACC120은 리더 보드 accuracy score 86.67을 달성했습니다.
 <img src="https://user-images.githubusercontent.com/80209977/178156365-d6bf383d-776d-49b9-a338-7d0ccf241b25.png" width="600" height="400">
+## Information
+- 최종 소스코드 파일 : /notebooks/Stacking ELECTRA+BERT+ALBERT.ipynb  
+- KLUE-nli Dataset에 대한 검증 소스코드 : /notebboks/KLUE_NLI.ipynb  
+- 리더보드 최종 제출파일 : /submission/submission_stacking_v4.csv  
+- 리더보드 정확도 99.47% 달성 제출 파일 : /submission/submission_klue_nli_v1.csv  
+## References
+- Dataset  
+  - kakaobrain/KorNLUDatasets : [GitHub Link](https://github.com/kakaobrain/KorNLUDatasets)  
+- Pre-trained models  
+  - monologg/KoELECTRA : [GitHub Link](https://github.com/monologg/KoELECTRA)    
+  - kiyoungkim1/LMkor : [GitHub Link](https://github.com/kiyoungkim1/LMkor)  
 ## 대회 주제  
 - Dataset에 대한 전처리 과정 및 학습 모델 탐지율 평가
 - 데이터 한 행에서 2개의 문장의 일치여부에 따라, 아래 3개 라벨로 분류
